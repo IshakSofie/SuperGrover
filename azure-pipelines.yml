@@ -47,4 +47,4 @@ steps:
     azureSubscription: 'DevOpsIshak'
     appType: 'webApp'
     WebAppName: 'DevOpsIshak'
-    packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
+    packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
