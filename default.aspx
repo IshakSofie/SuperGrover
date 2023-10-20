@@ -17,5 +17,7 @@
             <asp:Label ID="Label1" runat="server"></asp:Label>
         </p>
     </form>
+    <p>
+        Its a bean</p>
 </body>
 </html>
