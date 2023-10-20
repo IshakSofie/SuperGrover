@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'DevOpsVM1'
 
 variables:
   solution: '**/*.sln'
