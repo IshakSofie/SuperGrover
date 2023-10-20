@@ -41,3 +41,10 @@ steps:
     artifactName: 'drop'
     downloadPath: '$(System.ArtifactsDirectory)'
 
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'DevOpsIshak'
+    appType: 'webApp'
+    WebAppName: 'DevOpsIshak'
+    packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
