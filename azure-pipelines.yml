@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'DevOpsIshakVM1'
+  name: 'DevOpsIshak'
 
 variables:
   solution: '**/*.sln'
